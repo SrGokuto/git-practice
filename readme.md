@@ -37,7 +37,8 @@
 
 `git config --global user.email "tuemail@ejemplo.com"`  Establece el correo electrónico para Git.
 
-###¿Qué es un commit en Git?
+### ¿Qué es un commit en Git?
+
 `Un commit en GitHub` *es una instantánea de los cambios realizados en los archivos de un proyecto en un momento específico. Cuando se hace un commit, se guardan los cambios que se han preparado (con git add) en el repositorio local, creando una versión segura del proyecto que puede ser consultada o revertida posteriormente. Cada commit incluye un mensaje descriptivo que explica qué cambios se hicieron y tiene un identificador único (hash) que lo distingue de otros commits.*
 
 -Es inmutable, lo que significa que una vez ha sido creado, no se puede modificar, aunque sí se puede deshacer con otros comandos.
@@ -45,7 +46,8 @@
 -También incluye un mensaje descriptivo, donde se explica qué cambios se realizaron.
 
 
-###¿Qué es un push en Git?
+### ¿Qué es un push en Git?
+
 `Un push` *Es un comando de Git que transfiere y publica los cambios que has hecho en tu repositorio local a un repositorio remoto, como GitHub, GitLab o Bitbucket. Este comando sirve para actualizar la rama remota con las confirmaciones locales, permitiendo que otros miembros del equipo vean, revisen y colaboren en los mismos cambios.* 
 
 -Publicación de cambios: Permite compartir tus commits locales con el resto del equipo, poniendo a disposición tus avances en un repositorio centralizado.
