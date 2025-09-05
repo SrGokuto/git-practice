@@ -37,7 +37,7 @@
 
 `git config --global user.email "tuemail@ejemplo.com"`  Establece el correo electrónico para Git.
 
-##¿Qué es un commit en Git?
+##Qué es un commit en Git
 *Un commit en GitHub es una instantánea de los cambios realizados en los archivos de un proyecto en un momento específico. Cuando se hace un commit, se guardan los cambios que se han preparado (con git add) en el repositorio local, creando una versión segura del proyecto que puede ser consultada o revertida posteriormente. Cada commit incluye un mensaje descriptivo que explica qué cambios se hicieron y tiene un identificador único (hash) que lo distingue de otros commits.*
 
 -Es inmutable, lo que significa que una vez ha sido creado, no se puede modificar, aunque sí se puede deshacer con otros comandos.
