@@ -59,6 +59,73 @@
 -Envío masivo de ramas: Puedes subir todas las ramas de tu repositorio local al remoto utilizando la opción --all. 
 
 -Subida de etiquetas: Permite enviar todas las nuevas etiquetas creadas localmente al repositorio remoto usando la opción --tags. 
+# Proyecto de Prueba con Git
+
+Este repositorio es un ejemplo para practicar los **comandos básicos de Git**.
+
+## 🚀 Comandos principales
+
+### Inicialización y configuración
+- `git init` → Inicializa un repositorio en el directorio actual.
+- `git config --global user.name "Tu Nombre"`
+- `git config --global user.email "tuemail@ejemplo.com"`
+
+### Gestión de cambios
+- `git status` → Verifica el estado de los archivos.
+- `git add archivo.txt` → Agrega un archivo específico.
+- `git add .` → Agrega todos los archivos modificados.
+- `git commit -m "mensaje"` → Crea un commit con mensaje.
+
+### Sincronización
+- `git push origin main` → Envía los commits al repositorio remoto.
+- `git pull origin main` → Descarga y fusiona cambios del remoto.
+# 📚 Guía Básica de Git
+
+Este documento explica los comandos más comunes de Git y su uso en un flujo de trabajo real.
+
+
+## 🔹 Flujo de trabajo típico
+1. Clonar el repositorio:  
+   `git clone <url>`
+
+2. Crear una nueva rama para trabajar:  
+   `git checkout -b nueva-rama`
+
+3. Editar archivos y guardar cambios.
+
+4. Añadir los archivos modificados:  
+   `git add .`
+
+5. Crear un commit con descripción:  
+   `git commit -m "Implementada nueva funcionalidad X"`
+
+6. Subir cambios al remoto:  
+   `git push origin nueva-rama`
+
+## 🔹 Ejemplo de comandos
+- `git fetch` → Descarga referencias del remoto.
+- `git merge <rama>` → Fusiona cambios en la rama actual.
+- `git log --oneline` → Muestra el historial de commits resumido.
+# 🛠️ Manual de Git para el equipo
+
+Este repositorio incluye ejemplos y comandos de Git que utilizamos en el equipo de desarrollo.
+
+## 📖 ¿Qué es Git?
+Git es un sistema de control de versiones que permite trabajar en equipo, mantener un historial de cambios y colaborar en proyectos de software.
+
+## 🔹 Configuración inicial
+```bash
+git config --global user.name "Tu Nombre"
+git config --global user.email "tucorreo@ejemplo.com"
+# Crear una nueva rama
+git branch feature/nueva-funcionalidad
+
+# Cambiar a la rama creada
+git checkout feature/nueva-funcionalidad
+
+# Subir la nueva rama al remoto
+git push -u origin feature/nueva-funcionalidad
+
 
 
 
